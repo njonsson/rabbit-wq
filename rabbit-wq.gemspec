@@ -26,6 +26,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "celluloid", "~> 0"
   spec.add_dependency "oj", "~> 2"
   spec.add_dependency "servitude", "~> 2"
+  spec.add_dependency "sqlite3", "~> 1"
   spec.add_dependency "yell", "~> 1"
 
 end
