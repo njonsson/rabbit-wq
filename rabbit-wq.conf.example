@@ -1,7 +1,7 @@
 {
   "delayed_exchange_prefix": "work-delay",
   "delayed_queue_prefix": "work-delay",
-  "environment_file_path": "/some/path/to/environment/file"",
+  "environment_file_path": "/some/path/to/environment/file",
   "env": "development",
   "error_queue": "error",
   "threads": 1,
