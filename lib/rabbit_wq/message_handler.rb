@@ -1,4 +1,7 @@
-require 'active_support/core_ext'
+begin
+  require 'active_support/core_ext'
+rescue LoadError
+end
 require 'celluloid/autostart'
 require 'servitude'
 require 'yaml'

@@ -1,5 +1,8 @@
 require 'optparse'
-require 'rails'
+begin
+  require 'rails'
+rescue LoadError
+end
 
 module RabbitWQ
   class Command
